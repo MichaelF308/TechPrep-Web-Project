@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<Html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <script src="/script.js"></script>
+        <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div id="tagline">
+                Get ready for adventure!
+                </div>
+                <div button>
+                <button id="push">Book a trip now</button>
+                </div>
+            </header>
+            <nav>
+                <a href="">Home</a>
+                <a href="">Activities</a>
+                <a href="">About Us</a>
+                <!--<a href=""></a>
+                <a href=""></a>
+                <a href=""></a> -->
+                <a href="">Contact Us</a>
+            </nav>
+            <main>
+                <div id="container2">
+                    <div id="Introduction">Avalon Adventures provides excellent recreational activites for individuals and families alike.</div>
+                    <div id="Whale-Watching">
+                        <div id="whale-watching-preview-image"></div>
+                        <p>Whale Watching</p>
+                        <div id="Whale-Watching-Description">Join us for a 'whale of a good time' with whale watching and the traditional Newfoundland pastime of cod jigging!</div>
+                        <button id="Whale-Watching-Link"> Learn more</button>
+                    </div>
+                    <div id="Family-Ferryland-Adventure"> 
+                        <div id="family-ferryland-preview-image"></div>
+                        <div id="ffa-title">Family Ferryland Adventure</p1>
+                        <div id="Family-Ferryland-Adventure-Description">For the family! Experience a sea-sailing journey to the historical Colony of Avalon and a picnic near the Lighthouse!</div>
+                        <button id="ffa-Link"> Learn more</button>
+                    </div>
+                </div>
+            </main>
+            <footer></footer>
+        </div>
+    </body>
+</Html>
