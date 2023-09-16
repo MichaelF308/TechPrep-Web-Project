@@ -19,6 +19,28 @@ header{
     padding-right:auto;
     padding-bottom:40px;
     text-align:center;
+    background-image: url(Stjohns.png);
+    background-position-y:-300px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    transition: ease-in;
+}
+
+#header2 {
+    color:#fafeff;
+    background-color:blue;
+    height:350px;
+    width:1440px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    padding-left:auto;
+    padding-right:auto;
+    padding-bottom:40px;
+    text-align:center;
     background-image: url(whale2.jpg);
     background-position-y:-450px;
     background-size:cover;
@@ -84,10 +106,11 @@ a{
 .container2 {
     background-color: #1d4286;
     margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 17px;
     display: grid;
     font-size: 20px;
-    grid-gap: 10px;
+    grid-template-columns: 700px;
+    grid-gap: 5px;
 }
 
 #Whale-Watching {
