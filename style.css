@@ -187,3 +187,17 @@ p {
     background-repeat: no-repeat;
     grid-column: 1;
 }
+
+#Novice-East-Coast-Hiking-Experience {
+    background-color: #0097b2;
+    color: #fafeff;
+    height: 310px;
+    width:700px;
+    background-image: url(hiking1.png);
+    background-position-y: 60%;
+    background-position-x: -20%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    grid-column: 1;
+    margin-left: 350px;
+}
