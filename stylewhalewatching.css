@@ -62,7 +62,7 @@ a{
 #Introduction {
     color: #fafeff;
     height: 80px;
-    width:500px;
+    width:800px;
     margin-top: 15px;
     margin-left: auto;
     margin-right:auto;
@@ -74,84 +74,79 @@ a{
 .container2 {
     background-color: #1d4286;
     margin-top: 25px;
-    margin-left: 17px;
-    display: grid;
     font-size: 20px;
-    grid-template-columns: 700px;
-    grid-gap: 5px;
 }
 
-#Whale-Watching {
-    background-color: #0097b2;
-    color: #fafeff;
-    height: 310px;
-    width:700px;
-    background-image: url(whale-watching-preview.jpg);
-    background-position: -300%;
-    background-repeat: no-repeat;
-    grid-column: 1;
+#paragraph1 {
+    text-align:right;
+    height:350px;
+    font-size: 22px;
+    line-height: 2;
+    padding-left: 700px;
+    padding-right: 50px;
+    padding-top: 100px;
+    background-image: url(whale.jpg);
+    background-size: cover;
+    background-position-y: -160px;
 }
 
-p {
-    padding-right: 28px;
-    text-align: right;
-    margin-left: 20px;
-    font-size: 24px;
+p1 {
+    text-align:right;
+    font-size: 22px;
+    line-height: 2;
 }
 
-#Description {
-    text-align: right;
-    margin-left: 370px;
-    width: 300px;
+#paragraph2 {
+    text-align:left;
+    height:350px;
+    font-size: 22px;
+    line-height: 2;
+    padding-left: 50px;
+    padding-right: 700px;
+    padding-top: 100px;
+    background-image: url(Jigging.png);
+    background-size: cover;
 }
 
-#Link {
+p2 {
+    text-align:right;
+    font-size: 22px;
+    line-height: 2;
+}
+
+#paragraph3 {
+    text-align:right;
+    height:350px;
+    font-size: 22px;
+    line-height: 2;
+    padding-left: 700px;
+    padding-right: 50px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    background-image: url(coddish.jpg);
+    background-size: cover;
+}
+
+p3 {
+    text-align:right;
+    font-size: 22px;
+    line-height: 2;
+}
+
+p4 {
+    text-align:center;
+    font-size: 22px;
+    line-height: 2;
+}
+
+#Link{
     color:#fafeff;
     font-style:italic;
     background-color:#1d4286;
     margin-top: 30px;
-    margin-left: 500px;
+    margin-bottom: 300px;
     padding:10px;
     font-size:22px;
     border:none;
     border-radius:5px;
-}
-
-#Family-Ferryland-Adventure {
-    background-color: #0097b2;
-    color: #fafeff;
-    height: 310px;
-    width:700px;
-    background-image: url(ferry.jpg);
-    background-position-y: 60%;
-    background-position-x: -60%;
-    background-size: 70%;
-    background-repeat: no-repeat;
-    grid-column: 2;
-}
-
-#Adult_Brewery_Crawl {
-    background-color: #0097b2;
-    color: #fafeff;
-    height: 310px;
-    width:700px;
-    background-image: url(Pub.jpg);
-    background-position-y: 60%;
-    background-position-x: -20%;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    grid-column: 2;
-}
-
-#Family_Culture_Package {
-    background-color: #0097b2;
-    color: #fafeff;
-    height: 310px;
-    width:700px;
-    background-image: url(family_picnic.jpg);
-    background-position-y: 60%;
-    background-position-x: -20%;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    grid-column: 1;
 }
